@@ -1,9 +1,13 @@
 {
+  "homepage": "https://https://daphney-jb.github.io/react-quiz-app",
   "name": "react-quiz-app",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
     "start": "expo start",
+    "predeploy":"npm run build",
+    "deploy":"gh-pages -d build",
+    "build":"react-scrips build",
     "android": "expo start --android",
     "ios": "expo start --ios",
     "web": "expo start --web"
